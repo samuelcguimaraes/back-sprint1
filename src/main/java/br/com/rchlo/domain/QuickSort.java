@@ -18,7 +18,7 @@ public class QuickSort {
 		
 		Produto pivo = produtos[termino - 1];
 		
-		for (int analisando = inicial; analisando < termino - 1; analisando++) {
+		for (int analisando = 0; analisando < termino - 1; analisando++) {
 			Produto atual = produtos[analisando];
 			
 			if (pivo.getPrecoEfetivo().compareTo(atual.getPrecoEfetivo()) > 0) {
